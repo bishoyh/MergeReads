@@ -30,4 +30,4 @@ records_r = SeqIO.parse(open(ReverseName,"rU"), 'fastq') # Input format can be c
 handle = open(mergedName, "w")
 count = SeqIO.write(merge(records_f, records_r), handle, 'fasta') #Fastq won't work because the quality data is lost
 handle.close()
-print ("Wrote %i entried to  %s" % (count, mergedName))
+print ("Wrote %i entries to  %s" % (count, mergedName))
