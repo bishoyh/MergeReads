@@ -4,7 +4,7 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 import sys
-#import itertools
+
 
 ForwardName = str(sys.argv[1])  # forward reads file
 ReverseName = str(sys.argv[2])  # reverse reads file
